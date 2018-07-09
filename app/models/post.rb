@@ -7,7 +7,7 @@ class Post < ActiveRecord::Base
 
   validate :clickbait?
 
-  CLICKBAIT_PATTERNS = [
+   CLICKBAIT_PATTERNS = [
     /Won't Believe/i,
     /Secret/i,
     /Top [0-9]*/i,
